@@ -2,7 +2,8 @@
 
 Implementation of the s21_containers.h. library.
 
-The russian version of the task can be found in the repository.
+
+Implementation of STL Containers from the standard library.
 
 
 ## Contents
