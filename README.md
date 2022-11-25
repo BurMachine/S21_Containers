@@ -7,48 +7,28 @@ The russian version of the task can be found in the repository.
 
 ## Contents
 
-1. [Chapter I](#chapter-i) \
-   1.1. [Introduction](#introduction)
-2. [Chapter II](#chapter-ii) \
+
+1. [Chapter II](#chapter-ii) \
    2.1. [Information](#information)
-3. [Chapter III](#chapter-iii) \
-   3.1. [Part 1](#part-1-implementation-of-the-s21_containersh-library)  
-   3.2. [Part 2](#part-2-bonus-implementation-of-the-s21_containersplush-library)  
-   3.3. [Part 3](#part-3-bonus-implementation-of-the-modified-emplace-methods)
+2. [Chapter III](#chapter-iii) \
+   2.1. [Part 1](#part-1-implementation-of-the-s21_containersh-library)  
+   2.2. [Part 2](#part-2-bonus-implementation-of-the-s21_containersplush-library)  
+   2.3. [Part 3](#part-3-bonus-implementation-of-the-modified-emplace-methods)
 
 
-## Chapter I
 
+
+## Introduction
 ![s21_containers](misc/images/s21_containers.png)
 
-Planet Earth, USA, California, somewhere among the massive containers of the Port of Oakland, 29 October 1993.
 
-*- Do you really think Bjarne will agree to add this to the standard?*
 
-*-- Sure. Especially since he was already interested in templates a couple of years ago, but then they couldn't get enough reliability of the developing library.* - said a middle-aged man wearing a white shirt and an HP Labs nametag that said "A. Stepanov".
 
-*- I saw your presentation on generalized programming. The idea is really impressive, but they wanted to release the new standard by the end of the year. This one will need a lot of adjustments...*
-
-*-- I think that's exactly what they were missing to fully complete the new standard. Especially, as you said, the idea is impressive. However, it needs some adjustments, indeed. To be fully confident in the success of the presentation, we need to provide some examples of how to use the approach and the templates in general. You are familiar with the structure of singly linked lists, right?*
-
-*- Yeah, I think I'm starting to get your idea. You want to implement generalized lists as an example? One template class for all types?*
-
-*-- Not only that. Imagine if any container could be described once and then used with different data types and classes. How much time, effort and resources it would save! Lists, maps, sets!"* - the walk along the Embarcadero promenade was clearly getting more interesting.
-
-*- Queues and stacks... Damn, that's genius.*
-
-*-- Exactly. Who, after such examples, would refuse to add a library to their language standard?*
-
-*- I'm in. We could even put together a small team of guys who are interested. How much time do we have to implement these examples?*
-
-*-- About two weeks before the presentation meeting in San Jose, then..*
-
-### Introduction
 
 As part of the project you need to write your own library that implements the basic standard C++ container classes: `list`, `map`, `queue`, `set`, `stack` and `vector`. Implementations should provide a full set of standard methods and attributes for element handling, container capacity checking and iteration. As a bonus, you can also implement several other container classes from the C++ container library that are not as commonly used, but differ in their implementation details.
 
 
-## Chapter II
+## Chapter I
 
 ### Information
 
@@ -90,7 +70,7 @@ In C++, containers, along with iterators and some algorithms, are part of the St
 There are two main types of containers: sequence and associative containers. To find an element in sequence containers (`list`, `vector`, `array`, `stack`, `queue`), you have to look through the container one by one, while in associative containers (`map`, `set`, `multiset`) you just need to look through the key associated with the value.
 
 
-## Chapter III
+## Chapter II
 
 - The program must be developed in C++ language of C++17 standard using gcc compiler
 - The program code must be located in the src folder
@@ -136,5 +116,3 @@ Note: the arguments are the already created elements that should be inserted int
 *Tip 1*: notice that each of these methods uses an Args&&... args - Parameter pack construct. This construct allows a variable number of parameters to be passed to a function or method. So, when calling a method defined as `iterator emplace(const_iterator pos, Args&&... args)`, you can write either `emplace(pos, arg1, arg2)` or `emplace(pos, arg1, arg2, arg3)`.
 
 *Tip 2*: remember to test methods for different cases, including boundary ones.
-
-💡 [Tap here](https://forms.yandex.ru/u/635a83fd90fa7b19bab20f1c/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
