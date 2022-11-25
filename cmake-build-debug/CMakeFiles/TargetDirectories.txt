@@ -1,3 +1,0 @@
-/Users/gryffind/PROJECTS/S21_Containers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/gryffind/PROJECTS/S21_Containers/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/gryffind/PROJECTS/S21_Containers/cmake-build-debug/CMakeFiles/S21_Containers.dir
