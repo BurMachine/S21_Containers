@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6"
+					"fragment" : "-g"
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -106,7 +106,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Array/list.h",
+			"path" : "Array/array.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -5,9 +5,11 @@
 namespace s21_containers {
     template <typename T>
     class Array {
-    private:
+        T* array;
+        int len;
+    public:
         
-    };
+
 }
 
 #endif //SRC_ARRAY_H

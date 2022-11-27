@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "src::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-src-Debug-976013723ebb82c00082.json",
+					"jsonFile" : "target-src-Debug-0c2adbce921828590d54.json",
 					"name" : "src",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/gryffind/PROJECTS/S21_Containers/src/cmake-build-debug",
-		"source" : "/Users/gryffind/PROJECTS/S21_Containers/src"
+		"build" : "/home/burmachine/S21/S21_Containers/src/cmake-build-debug",
+		"source" : "/home/burmachine/S21/S21_Containers/src"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
